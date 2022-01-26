@@ -1,11 +1,13 @@
-doc: fix typo in `technical-priorities.md`
+test: use Object.hasOwn() where applicable
 
-`heap dumps` spelled as `headumps`
+Replace Object.prototpye.hasOwnProperty() with Object.hasOwn() where
+applicable.
 
-PR-URL: https://github.com/nodejs/node/pull/41694
-Reviewed-By: Mohammed Keyvanzadeh <mohammadkeyvanzade94@gmail.com>
-Reviewed-By: Mestery <mestery@protonmail.com>
-Reviewed-By: Luigi Pinca <luigipinca@gmail.com>
-Reviewed-By: Tobias Nießen <tniessen@tnie.de>
-Reviewed-By: Rich Trott <rtrott@gmail.com>
+PR-URL: https://github.com/nodejs/node/pull/41664
+Reviewed-By: Benjamin Gruenbaum <benjamingr@gmail.com>
+Reviewed-By: Antoine du Hamel <duhamelantoine1995@gmail.com>
 Reviewed-By: Darshan Sen <raisinten@gmail.com>
+Reviewed-By: Mestery <mestery@protonmail.com>
+Reviewed-By: Anna Henningsen <anna@addaleax.net>
+Reviewed-By: Tierney Cyren <hello@bnb.im>
+Reviewed-By: Luigi Pinca <luigipinca@gmail.com>
