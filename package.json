@@ -1,0 +1,21 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "description": "read and save",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepika",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "prompt": "^1.2.1"
+  }
+}

@@ -1,0 +1,11 @@
+doc: fix typo in `technical-priorities.md`
+
+`heap dumps` spelled as `headumps`
+
+PR-URL: https://github.com/nodejs/node/pull/41694
+Reviewed-By: Mohammed Keyvanzadeh <mohammadkeyvanzade94@gmail.com>
+Reviewed-By: Mestery <mestery@protonmail.com>
+Reviewed-By: Luigi Pinca <luigipinca@gmail.com>
+Reviewed-By: Tobias Nießen <tniessen@tnie.de>
+Reviewed-By: Rich Trott <rtrott@gmail.com>
+Reviewed-By: Darshan Sen <raisinten@gmail.com>
